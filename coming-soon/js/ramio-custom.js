@@ -1,13 +1,13 @@
 // ------------------------------------------------
-// Project Name: Ramio Coming Soon Template
-// Project Description: Ramio - awesome coming soon template to kick-start your project
-// Tags: Ramio, coming soon, under construction, template, coming soon page, html5, css3
+// Project Name: 3J2Unlimited Coming Soon
+// Project Description: 3J2Unlimited - awesome coming soon template to kick-start your project
+// Tags: 3J2Unlimited, coming soon, under construction, template, coming soon page, html5, css3
 // Version: 1.0.0
 // Build Date: April 2018
 // Last Update: April 2018
-// This product is available exclusively on Themeforest
-// Author: mix_design
-// Author URI: http://mixdesign.club
+// 
+// Author: hemmayo
+// Author URI: http://emmapopoola.com
 // File name: ramio-custom.js
 // ------------------------------------------------
 
