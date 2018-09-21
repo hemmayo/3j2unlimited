@@ -1,0 +1,37 @@
+[data-aos] {opacity:1 !important; transform: none;}
+
+.MainBanner * {
+	opacity: 1 !important;
+	transform: none !important;
+}
+
+.MainBanner .content {
+	z-index: 100;
+	position: relative;
+	opacity: 1 !important;
+	transform: none !important;
+}
+
+.no-js-msg {
+	font-size: 30px;
+	font-weight: bold;
+	width: 90%;
+	text-align: center;
+	margin: 5% auto 20% auto;
+}
+.no-js-msg a {
+	color: red;
+}
+
+.switch {
+	display:none;
+}
+.map-container #map-1 {
+	background: url("img/contact/map1.png") center no-repeat;
+	background-size: cover;
+}
+
+.map-container #map-2 {
+	background: url("img/contact/map2.png") center no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+                      _    _  __  _  _ _____  ___ ___
+                      | /\ | |__| |\ |   |   |___ |  \
+                      |/  \| |  | | \|   |   |___ |__/
+
+         F O R   C R I M E S   A G A I N S T   T H E   E M P I R E
+
+ ________________________  _________________________  _______________________
+|        .......       LS||      .x%%%%%%x.         ||  ,.------;:~~:-.      |
+|      ::::::;;::.       ||     ,%%%%%%%%%%%        || /:.\`;;|||;:/;;:\     |
+|    .::;::::;::::.      ||    ,%%%'  )'  \%        ||:')\`:\||::/.-_':/)    |
+|   .::::::::::::::      ||   ,%x%) __   _ Y        ||`:`\\\ ;'||'.''/,.:\   |
+|   ::`_```_```;:::.     ||   :%%% ~=-. <=~|        ||==`;.:`|;::/'/./';;=   |
+|   ::=-) :=-`  ::::     ||   :%%::. .:,\  |        ||:-/-%%% | |%%%;;_- _:  |
+| `::|  / :     `:::     ||   `;%:`\. `-' .'        ||=// %wm)..(mw%`_ :`:\  |
+|   '|  `~'     ;:::     ||    ``x`. -===-;         ||;;--', /88\ -,- :-~~|  |
+|    :-:==-.   / :'      ||     / `:`.__.;          ||-;~~::'`~^~:`::`/`-=:) |
+|    `. _    .'.d8:      ||  .d8b.  :: ..`.         ||(;':)%%%' `%%%.`:``:)\ |
+| _.  |88bood88888._     || d88888b.  '  /8         ||(\ %%%/dV##Vb`%%%%:`-. |
+|~  `-+8888888888P  `-. _||d888888888b. ( 8b       /|| |);/( ;~~~~ :)\`;;.``\|
+|-'     ~~^^^^~~  `./8 ~ ||~   ~`888888b  `8b     /:|| //\'/,/|;;|:(: |.|\;|\|
+|8b /  /  |   \  \  `8   ||  ' ' `888888   `8. _ /:/||/) |(/ | / \|\\`( )- ` |
+|P        `          8   ||'      )88888b   8b |):X ||;):):)/.):|/) (`:`\\`-`|
+|                    8b  ||   ~ - |888888   `8b/:/:\||;%/ //;/(\`.':| ::`\\;`|
+|                    `8  ||       |888888    88\/~~;||;/~( \|./;)|.|):;\. \\-|
+|                     8b ||       (888888b   88|  / ||/',:\//) ||`.|| (:\)):%|
+|         .           `8 ||\       \888888   8-:   /||,|/;/(%;.||| (|(\:- ; :|
+|________/_\___________8_||_\_______\88888_.'___\__/||_%__%:__;_:`_;_:_.\%_`_|
+
+L u k e  S k y w a l k e r      H a n   S o l o          C h e w b a c c a
+
+Self-Proclaimed Jedi Knight     Smuggler, Pirate         Smuggler, Pirate
+     500,000 credits            200,000 credits          100,000 credits
+
+               The above are wanted for the following crimes:
+
+    - Liberation of a known criminal, Princess Leia Organa of Alderaan -
+         - Direct involvement in armed revolt against the Empire -
+                              - High treason -
+                               - Espionage -
+                               - Conspiracy -
+                    - Destruction of Imperial Property -
+
+           These individuals are considered extremely dangerous.
+
+       E X P E R I E N C E D   B O U N T Y   H U N T E R S   O N L Y
+
+  The Empire will not  be held  responsible  for any  injuries or property
+  loss arising from the  attempted apprehension of these  notorious crimi-
+  nals. Bounty is for live capture only! For more information contact your
+  local Imperial Intelligence Office.
+                
+-->
+
+<!-- Mirrored from uigstudio.com/case-study-erlang by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Sep 2018 16:05:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+	<title>
+		Erlang Solutions Case Study | Web Design and Front-end Development.
+	</title>
+	 	<meta property="og:title" content="Erlang Solutions Case Study by 3J2Unlimited" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="index.html" />
+	<meta property="og:description" content="Erlang contacted us for web design, responsive web design, and front-end development for the company&#039;s new website. This wasn&#039;t a small challenge. The client&#039;s PM, Magdalena, was a strongly design-oriented person who wanted to achieve the perfect balance between professionalism and creativity in the organization. We were working on a design with their London office and deliver our code, documentation, and tools to an IT company in Argentina, which then implement our code and complete the back-end development. " />
+	<meta property="og:image" content="img/uigstudio-avatar.png" />
+	<meta name="description" content="Erlang contacted us for web design, responsive web design, and front-end development for the company&#039;s new website. This wasn&#039;t a small challenge. The client&#039;s PM, Magdalena, was a strongly design-oriented person who wanted to achieve the perfect balance between professionalism and creativity in the organization. We were working on a design with their London office and deliver our code, documentation, and tools to an IT company in Argentina, which then implement our code and complete the back-end development. ">
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="Erlang contacted us for web design, responsive web design, and front-end development for the company&#039;s new website. This wasn&#039;t a small challenge. The client&#039;s PM, Magdalena, was a strongly design-oriented person who wanted to achieve the perfect balance between professionalism and creativity in the organization. We were working on a design with their London office and deliver our code, documentation, and tools to an IT company in Argentina, which then implement our code and complete the back-end development. " />
+	<meta name="twitter:title" content="Erlang Solutions Case Study by 3J2Unlimited" />
+	<meta name="twitter:site" content="@UIGStudio" />
+	<meta name="twitter:image" content="img/uigstudio-avatar.png" />
+	 
+	<link rel="shortcut icon" href="img/favicon7b02.ico?=92AmRJ" type="image/x-icon">
+				<link rel="stylesheet" type="text/css" href="main.min7b02.css?=92AmRJ" />
+		<noscript><link rel="stylesheet" type="text/css" href="no-js7b02.css?=92AmRJ"/></noscript>
+
+	<script src="vendor/jquery.min7b02.js?=92AmRJ"></script>
+
+	<meta name="keywords" content="web applications trends,javascript web applications examples,user interface graphics studio,uig studio,best web design company portfolio,best web design case study,best web development case study,erlang,erlang solutions,MongooseIM,Wombat OAM,RabbitMQ,Riak KV,megaLOAD,Sardina,Linc&amp;Loom,QuickCheck,Elvis,LSD"/>
+	<link rel="apple-touch-icon" href="img/touch-icon-iphone7b02.png?=92AmRJ">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/touch-icon-ipad7b02.png?=92AmRJ">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/touch-icon-iphone-retina7b02.png?=92AmRJ">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad-retina7b02.png?=92AmRJ">
+	<link type="text/css" media="screen" rel="stylesheet" href="awwwards.css" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="application-name" content="3J2Unlimited"/>
+	<meta name="msapplication-square70x70logo" content="/img/small.jpg?=92AmRJ"/>
+	<meta name="msapplication-square150x150logo" content="/img/medium.jpg?=92AmRJ"/>
+	<meta name="msapplication-wide310x150logo" content="/img/wide.jpg?=92AmRJ"/>
+	<meta name="msapplication-square310x310logo" content="/img/large.jpg?=92AmRJ"/>
+	</head>
+<body class="container">
+	 	<div id="awwwards" class="honorable black right">
+		<a href="http://www.awwwards.com/" target="_blank">Awwwards</a>
+	</div>
+	  	 <script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '297901287244381',
+			xfbml      : true,
+			version    : 'v2.7'
+		});
+	};
+
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "../connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+	 <!--
+<div
+	class="fb-like"
+	data-share="true"
+	data-width="450"
+	data-show-faces="true">
+</div> !-->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cracow, Poland",
+    "postalCode": "31-008",
+    "streetAddress": "Rynek Główny 17"
+  },
+  "email": "hi(at)3j2unlimited.com",
+  "name": "3J2Unlimited",
+  "telephone": "+48 530 501 530"
+}
+</script>
+	 	 		<header class="Header active">
+    <div class="container">
+        <div class="content fadeInHeader">
+            <div class="logo">
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27.901" height="40" viewBox="0 0 27.901 40"><path d="M0,4.868v26.85a0.539,0.539,0,0,0,.27.467l13.411,7.743a0.539,0.539,0,0,0,.539,0l13.411-7.743a0.539,0.539,0,0,0,.27-0.467V16.949a0.539,0.539,0,0,0-.809-0.467l-5.358,3.093a0.539,0.539,0,0,0,0,.934L24.144,21.9a0.539,0.539,0,0,1,.27.467V29.8a0.539,0.539,0,0,1-.27.467L16.5,34.678a0.539,0.539,0,0,1-.809-0.467V15.225a0.539,0.539,0,0,1,.27-0.467L27.631,8.022a0.539,0.539,0,0,0,.27-0.467V4.867A0.539,0.539,0,0,0,27.092,4.4L13.95,11.988l-1.474.851a0.539,0.539,0,0,0-.27.467V34.233a0.539,0.539,0,0,1-.81.466L3.756,30.266A0.539,0.539,0,0,1,3.488,29.8V6.258a0.539,0.539,0,0,0-.27-0.467L0.809,4.4A0.539,0.539,0,0,0,0,4.868Z" style="fill:#312e2d"/><path d="M14.138,7.763l6.058-3.5a0.4,0.4,0,0,0,0-.7L14.138,0.054a0.411,0.411,0,0,0-.408,0L7.666,3.56a0.4,0.4,0,0,0,0,.7l6.064,3.5A0.411,0.411,0,0,0,14.138,7.763Z" style="fill:#312e2d"/></svg>
+                </a>
+            </div>
+            <button class="menu-btn js-menu-btn"><span></span></button>
+            <ul class="menu">
+                <li class="menu--item">
+                    <a href="process.html"> The Process</a>
+                </li>
+                <li class="menu--item">
+                    <a href="offer.html">What We Offer</a>
+                </li>
+                <li class="menu--item">
+                    <a href="case-study.html">Case Study</a>
+                </li>
+                <li class="menu--item">
+                    <a href="studio.html">About Us</a>
+                </li>
+                <li class="menu--item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+ 		
+    <div class="Banner banner-casestudy erlang fadeInUpDelay">
+	<div class="background">
+		<img src="img/cross-rotated-canv7b02.svg?=92AmRJ" alt="" id="image" />
+		<canvas id="imageCanvas" width="40" height="40"></canvas>
+		<canvas id="patternCanvas"></canvas>
+	</div>
+	<div class="content content-casestudy erlang fadeInUpDelay">
+		<div class="banner-logo-container">
+			<img class="banner-logo" src="img/erlang/erlang-logo-big7b02.png?=92AmRJ" alt="Erlang Solutions logo" /></div>
+		<!--<div class="arrow-down"><img src="/img/arrow.svg?=92AmRJ" alt="arrow-down" /></div>-->
+		<div class="arrow-down">
+			<img src="img/cs-arrow7b02.svg?=92AmRJ" alt="Scroll down">
+		</div>
+	</div>
+</div>
+    <div class="ServiceAgreement mt-140 clear">
+	<div class="element">
+		<h2 class="section-title">About Erlang Solutions</h2>
+		<p class="section-subtitle erlang-underline">Keeping clients&#039; businesses moving.</p>
+		<p class="section-text">Erlang Solutions develops and builds trusted, fault-tolerant systems that can scale to billions of users. Their talented team is composed of software experts who are passionate about Erlang/OTP &amp; Elixir and have an unwavering belief in the open-source future. They offer a wide range of products, from on-site/remote consulting, support, and mobile development to architecture/code reviews and training.</p>
+
+		<div class="spans mt-60">
+			<span class="design">WIREFRAMING</span>
+			<span class="design">UI DESIGN</span>
+			<span class="design">WEB DESIGN</span>
+			<span class="design">RWD DESIGN</span>
+			<span class="design">ICON DESIGN</span>
+			<span class="design">FRONT-END CODING</span>
+			<span class="design">RWD CODING</span>
+		</div>
+	</div>
+
+	<div class="casestudy-img">
+		<img class="casestudy-img-iphone erlang" src="img/erlang/iphone-erlang-screen7b02.png?=92AmRJ" alt="Printbox">
+		<img class="casestudy-img-macbook erlang" src="img/erlang/macbook-erlang7b02.jpg?=92AmRJ" alt="Printbox">
+	</div>
+</div>    <div class="TheChallege erlang mt-140">
+	<div class="element">
+		<h3 class="section-title">The challenge</h3>
+		<p class="section-subtitle erlang-underline">A few words about the Erlang project.</p>
+		<p class="section-text" data-aos="fade-up">Erlang contacted us for web design, responsive web design, and front-end development for the company&#039;s new website. This wasn&#039;t a small challenge. The client&#039;s PM, Magdalena, was a strongly design-oriented person who wanted to achieve the perfect balance between professionalism and creativity in the organization. We were working on a design with their London office and deliver our code, documentation, and tools to an IT company in Argentina, which then implement our code and complete the back-end development. </p>
+	</div>
+
+	<div class="map-container mt-140"  data-aos="fade-up">
+		<!--<div class="map-item london"></div>-->
+		<!--<div class="map-item krakow"></div>-->
+		<!--<div class="map-item buenos-aires"></div>-->
+		<!--<div class="map-shape-1"><svg xmlns="http://www.w3.org/2000/svg" width="527" height="589.94" viewBox="0 0 527 589.94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M902,2300s-523.494,174.05-524,587" transform="translate(-375.75 -2297.81)"/>
+</svg>
+</div>-->
+		<!--<div class="map-shape-2"><svg xmlns="http://www.w3.org/2000/svg" width="143.5" height="25.91" viewBox="0 0 143.5 25.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M762,2268s68.585-11.71,142,21" transform="translate(-761.25 -2265.22)"/>
+</svg>
+</div>-->
+		<img class="col-12" src="img/erlang/erlang-map7b02.gif?=92AmRJ" alt="">
+	</div>
+
+	<div class="Offer mt-140"  data-aos="fade-up">
+			<div class="element">
+				<div class="content">
+					<div class="icon">
+						<svg id="cs-er-icon1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65" height="45" viewBox="0 0 65 45" style="enable-background:new 0 0 65 45;" xml:space="preserve">
+<path id="startpoint" style="fill:#312E2D;" d="M6.1,39.9C7.3,41,7.3,42.8,6.2,44l-0.1,0.1C5,45.3,3.2,45.3,2,44.2l-0.1-0.1
+	C0.7,43,0.7,41.2,1.8,40l0.1-0.1C3,38.7,4.8,38.7,6,39.8L6.1,39.9z"/>
+<path id="controlpoint1" style="fill:#312E2D;" d="M9.3,18.2c1,1.3,0.7,3.2-0.6,4.2c-1.1,0.8-2.5,0.8-3.6,0
+	c-1.2-1.1-1.2-2.9-0.1-4.1l0.1-0.1C6.2,17,8,17,9.2,18.1C9.2,18.2,9.3,18.2,9.3,18.2z"/>
+<path id="endpoint" style="fill:#312E2D;" d="M63.1,39.9c1.2,1.2,1.2,3.1,0,4.2c-1.2,1.2-3.1,1.2-4.2,0c-1.2-1.2-1.2-3.1,0-4.2l0,0
+	c1.1-1.2,2.9-1.2,4.1-0.1C63,39.8,63.1,39.9,63.1,39.9z"/>
+<path id="controlpoint2" style="fill:#312E2D;" d="M58.1,1.3c1.2,1.2,1.2,3.1,0,4.2c-1.2,1.2-3.1,1.2-4.2,0s-1.2-3.1,0-4.2l0,0
+	C55,0.1,56.8,0.1,58,1.2C58,1.2,58.1,1.3,58.1,1.3z"/>
+<path id="middlepoint" style="fill:#312E2D;" d="M34.3,9.9c1.2,1.2,1.2,3.1,0,4.2c-1.2,1.2-3.1,1.2-4.2,0c-1.2-1.2-1.2-3.1,0-4.2
+	l0,0c1.1-1.2,2.9-1.2,4.1-0.1C34.3,9.8,34.3,9.9,34.3,9.9z"/>
+<path id="path1" style="fill:none;stroke:#312E2D;stroke-width:1.9;stroke-miterlimit:10;" d="M61.3,42c0,0-4.7-39-29-30
+	C5.6,20.8,4,42.4,4,42.4"/>
+<line id="ctrlline" style="fill:#312E2D;stroke:#312E2D;stroke-width:2;stroke-miterlimit:10;" x1="55.5" y1="3.8" x2="8.1" y2="20.1"/>
+</svg>					</div>
+					<div class="text">
+						<p class="title">Design-oriented client</p>
+						<p class="subtitle">
+							The client was in search of a perfect balance between professionalism and creativity. Thus, we worked to create a high-quality design and pixel perfect interactions to meet the needs of this demanding client.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="element">
+				<div class="content">
+					<div class="icon">
+						<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="60" height="56" viewBox="0 0 60 56"><title>ren-solution-icon-2</title><path d="M8,11a3,3,0,1,1,3,3A2.95,2.95,0,0,1,8,11Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M30,11a3,3,0,1,1,3,3A2.95,2.95,0,0,1,30,11Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M53,11a3,3,0,1,1,3,3A2.95,2.95,0,0,1,53,11Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M6,18H19v2H6V18Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M6,18V62.49H4V18H6Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M19,19.51V64H17V19.51h2Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M4,62H19v2H4V62Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M28,18H41v2H28V18Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M28,18V62.49H26V18h2Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M41,19.51V64H39V19.51h2Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M26,62H41v2H26V62Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M51,18H64v2H51V18Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M51,18V62.49H49V18h2Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M64,19.51V64H62V19.51h2Z" transform="translate(-4 -8)" style="fill:#302d2d"/><path d="M49,62H64v2H49V62Z" transform="translate(-4 -8)" style="fill:#302d2d"/></svg>					</div>
+					<div class="text">
+						<p class="title">Multi-team development</p>
+						<p class="subtitle">
+							We are delivering front-end code, documentation, and tools to a second IT company and will work with them on front-end and back-end integration.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="element">
+				<div class="content">
+					<div class="icon">
+						<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="56" height="52" viewBox="0 0 56 52"><title>ren-solution-icon-3</title><circle cx="45" cy="3" r="3" style="fill:#302d2d"/><circle cx="17.93" cy="30.21" r="3" transform="translate(-14.18 -6.35) rotate(-14.94)" style="fill:#302d2d"/><path d="M9,36A26,26,0,1,0,55.2,19.63l1.55-1.26A28,28,0,1,1,7,36" transform="translate(-7 -12)" style="fill:#302d2d"/><path d="M39.64,53.39A18,18,0,1,0,20.42,25.45L18.8,24.27a20,20,0,1,1,21.36,31" transform="translate(-7 -12)" style="fill:#302d2d"/></svg>					</div>
+					<div class="text">
+						<p class="title">Multi-location cooperation</p>
+						<p class="subtitle">
+							London: decisions &amp; feedback<br />
+Krakow: web design &amp; front-end coding<br />
+Buenos Aires: back-end development &amp; implementation
+						</p>
+					</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+
+    <div class="TheSolution mt-140 erlang">
+	<h3 class="title">The solution</h3>
+	<div class="numbered-list-container js-numbered-list-container mt-100 erlang-underline">
+		<div class="numbered-list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="56.25" viewBox="0 0 60 56.25"><title>cs-printbox-solution-1</title><rect width="1.875" height="54.375" style="fill:#302d2d"/><rect x="14.063" y="1.875" width="1.875" height="40.313" style="fill:#302d2d"/><rect x="1.875" width="14.063" height="1.875" style="fill:#302d2d"/><rect x="15.938" y="40.313" width="20.625" height="1.875" style="fill:#302d2d"/><rect y="54.375" width="34.688" height="1.875" style="fill:#302d2d"/><rect x="34.688" y="42.188" width="1.875" height="14.063" style="fill:#302d2d"/><rect x="58.125" y="1.875" width="1.875" height="54.375" style="fill:#302d2d"/><rect x="44.063" y="14.063" width="1.875" height="40.313" style="fill:#302d2d"/><rect x="44.063" y="54.375" width="14.063" height="1.875" style="fill:#302d2d"/><rect x="23.438" y="14.063" width="20.625" height="1.875" style="fill:#302d2d"/><rect x="25.313" width="34.688" height="1.875" style="fill:#302d2d"/><rect x="23.438" width="1.875" height="14.063" style="fill:#302d2d"/><rect x="28.125" y="21.563" width="1.875" height="13.125" style="fill:#302d2d"/><rect x="22.5" y="27.188" width="13.125" height="1.875" style="fill:#302d2d"/></svg></div>
+		<h4 class="numbered-list-title" id="printbox-culture">1. Project process</h4>
+		<p class="numbered-list-subtitle mt-10">We created a safety path for meeting the client&#039;s high expectations and short deadline.</p>
+	</div>
+	<div class="numbered-list-content js-numbered-list-content ">
+		<p class="numbered-list-text">To provide a top-quality design while also meeting the client&#039;s high expectations within a short timeframe, we prepared a dedicated process. See the work scheme that we built for this project below.</p>
+
+		<!--<div class="col-3-container mt-50" data-aos="fade-up">-->
+			<!--<div class="col-4">-->
+				<!--<p></p>-->
+			<!--</div>-->
+			<!--<div class="col-4">-->
+				<!--<p></p>-->
+			<!--</div>-->
+			<!--<div class="col-4">-->
+				<!--<p></p>-->
+			<!--</div>-->
+		<!--</div>-->
+
+
+	<div class="mt-140"  data-aos="fade-up">
+		<img class="col-12" src="img/erlang/project-process7b02.png?=92AmRJ" alt="">
+	</div>
+	</div>
+</div>
+    <div class="TheSolution mt-140 erlang">
+	<div class="numbered-list-container js-numbered-list-container mt-100 green-underline">
+		<div class="numbered-list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><title>cs-printbox-solution-2</title><rect y="19" width="2" height="37" style="fill:#302d2d"/><rect x="54" y="19" width="2" height="37" style="fill:#302d2d"/><rect x="2" y="19" width="5" height="2" style="fill:#302d2d"/><rect x="2" y="54" width="52" height="2" style="fill:#302d2d"/><rect x="49" y="19" width="5" height="2" style="fill:#302d2d"/><circle cx="14" cy="34.9" r="3" style="fill:#302d2d"/><circle cx="42" cy="34.9" r="3" style="fill:#302d2d"/><circle cx="28" cy="44.9" r="3" style="fill:#302d2d"/><rect x="13" width="2" height="35" style="fill:#302d2d"/><rect x="27" width="2" height="45" style="fill:#302d2d"/><rect x="41" width="2" height="35" style="fill:#302d2d"/></svg></div>
+		<h4 class="numbered-list-title" id="product-and-technology">2. Cooperation with the client</h4>
+		<p class="numbered-list-subtitle mt-10">We collected the best tools for communication, feedback, and task management in order to make our cooperation with the client as efficient as possible.</p>
+	</div>
+	<div class="js-numbered-list-content" data-aos="fade-up">
+		<p class="numbered-list-text">The client, who wanted to push the pixels to the limit, required the appropriate tools for collaboration and feedback management. That&#039;s why we chose inVision to gather communication and feedback in a maximally visual way with the option of using it later to manage other tasks.</p>
+
+	<div class="mt-140 img-shadow"  data-aos="fade-up">
+		<img class="col-12" src="img/erlang/invision7b02.jpg?=92AmRJ" alt="">
+	</div>
+	</div>
+</div>
+    <div class="TheSolution erlang mt-140">
+	<div class="numbered-list-container js-numbered-list-container mt-100 green-underline">
+		<div class="numbered-list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="62" height="60.063" viewBox="0 0 62 60.063"><title>cs-printbox-solution-3</title><path d="M19.375,42.656H0V1.969H19.375V42.656ZM1.938,40.719h15.5V3.906H1.938V40.719Z" transform="translate(0 -1.969)" style="fill:#302d2d"/><path d="M40.591,62.031H21.409V13.594H40.591V62.031ZM23.347,60.094H38.653V15.531H23.347V60.094Z" transform="translate(0 -1.969)" style="fill:#302d2d"/><path d="M62,54.281H42.625V1.969H62V54.281ZM44.563,52.344h15.5V3.906h-15.5V52.344Z" transform="translate(0 -1.969)" style="fill:#302d2d"/><polygon points="29.644 24.606 25.478 20.441 26.834 19.084 29.644 21.894 35.166 16.372 36.522 17.728 29.644 24.606" style="fill:#302d2d"/></svg></div>
+		<h4 class="numbered-list-title" id="fields-of-cooperation">3. Multi-team development</h4>
+		<p class="numbered-list-subtitle mt-10">Front-end/Back-end integration &amp; communication</p>
+	</div>
+
+	<div class="js-numbered-list-content">
+		<p class="numbered-list-text">Having separate development teams work on one project is always a challenge. Therefore, for smooth cooperation and the best results after implementation, we selected GitHub as a common ground, inVision for information, and a static HTML prototype for previews and double-checking.</p>
+
+		<div class="mt-140 img-shadow"  data-aos="fade-up">
+			<img class="col-12" src="img/erlang/conversation7b02.jpg?=92AmRJ" alt="">
+		</div>
+
+		<div class="col-12 mt-100"  data-aos="fade-up">
+			<img class="photo col-12" src="img/erlang/cs-erlang-17b02.jpg?=92AmRJ" alt="Branding">
+		</div>
+		<div class="two-col-gap col-12 mt-10 clear"  data-aos="fade-up">
+			<div class="col-6"><img class="photo" src="img/erlang/erlang-img-17b02.jpg?=92AmRJ" alt="Branding">
+			</div>
+			<div class="col-6"><img class="photo" src="img/erlang/erlang-img-27b02.jpg?=92AmRJ" alt="Branding">
+			</div>
+		</div>
+	</div>
+</div>
+
+    <div class="TheResult erlang mt-140 clear" id="the-result">
+	<h3 class="title">The Results</h3>
+
+	<div class="numbered-list-container js-numbered-list-container mt-100 green-underline">
+		<div class="numbered-list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="58.621" height="50" viewBox="0 0 58.621 50"><title>cs-printbox-result-1</title><path d="M1.19,4V17.793H24.466V4H1.19ZM22.741,16.069H2.914V5.724H22.741V16.069Z" transform="translate(-1.19 -4)" style="fill:#312e2d"/><path d="M1.19,21.155V53.914H24.466V21.155H1.19ZM22.741,52.19H2.914V22.879H22.741V52.19Z" transform="translate(-1.19 -4)" style="fill:#312e2d"/><path d="M27.914,4V54h31.9V4h-31.9ZM58.086,52.276H29.638V5.724H58.086V52.276Z" transform="translate(-1.19 -4)" style="fill:#312e2d"/></svg></div>
+		<h4 class="numbered-list-title" id="corporate-identity">1. Illustrations and icons</h4>
+		<p class="numbered-list-subtitle mt-10"></p>
+	</div>
+
+	<div class="js-numbered-list-content">
+
+		<!--<p class="numbered-list-subtitle"></p>-->
+
+		
+	<!--	<div class="tools mt-50 clear">
+						<div class="tool"><p>Design TeamLeading</p></div>
+						<div class="tool"><p>Teach TeamLeading</p></div>
+						<div class="tool"><p>UI Design</p></div>
+						<div class="tool"><p>Front-end development</p></div>
+						<div class="tool"><p>UX Design</p></div>
+						<div class="tool"><p>Project Managment</p></div>
+						<div class="tool"><p>Prototyping</p></div>
+						<div class="tool"><p>PHP Development</p></div>
+						<div class="tool"><p>Graphic Design</p></div>
+						<div class="tool"><p>JS Coding</p></div>
+						<div class="tool"><p>RWD Design</p></div>
+						<div class="tool"><p>Testing</p></div>
+					</div>
+!-->
+		<div class="two-col-gap col-12 clear"  data-aos="fade-up">
+			<div class="col-3"><img class="drawing" src="img/erlang/erlang-result-icon-17b02.svg?=92AmRJ" alt="Branding"></div>
+			<div class="col-3"><img class="drawing" src="img/erlang/erlang-result-icon-27b02.svg?=92AmRJ" alt="Branding"></div>
+			<div class="col-3"><img class="drawing" src="img/erlang/erlang-result-icon-37b02.svg?=92AmRJ" alt="Branding"></div>
+			<div class="col-3"><img class="drawing" src="img/erlang/erlang-result-icon-47b02.svg?=92AmRJ" alt="Branding"></div>
+		</div>
+
+		<div class="two-col-gap col-12 mt-140 clear"  data-aos="fade-up">
+			<div class="col-6"><img class="drawing drawing1" src="img/erlang/erlang-result-logo7b02.jpg?=92AmRJ" alt="Branding"></div>
+			<div class="col-6"><img class="drawing" src="img/erlang/erlang-result-compass7b02.svg?=92AmRJ" alt="Branding"></div>
+		</div>
+		<div class="two-col-gap col-12 mt-100 clear"  data-aos="fade-up">
+			<div class="col-6"><img class="drawing" src="img/erlang/erlang-result-dwg-17b02.svg?=92AmRJ" alt="Branding"></div>
+			<div class="col-6"><img class="drawing" src="img/erlang/erlang-result-dwg-27b02.svg?=92AmRJ" alt="Branding"></div>
+		</div>
+	</div>
+
+</div>
+    <div class="TheResult erlang mt-140 clear">
+	<div class="numbered-list-container js-numbered-list-container mt-100 green-underline">
+		<div class="numbered-list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="58.167" height="56.395" viewBox="0 0 58.167 56.395"><title>cs-printbox-result-2</title><path d="M1.876,0.9v56.4H60.043V0.9H1.876Zm56.29,54.546H3.753V2.744H58.167v52.7Z" transform="translate(-1.876 -0.895)" style="fill:#312e2d"/><path d="M20.64,0.9v56.4h39.4V0.9H20.64ZM58.167,55.441H22.516V2.744H58.167v52.7ZM20.64,0.9v47.15h39.4V0.9M58.167,2.744V46.2H22.516V2.744" transform="translate(-1.876 -0.895)" style="fill:#312e2d"/></svg></div>
+		<h4 class="numbered-list-title" id="web-apps">2. Web Design</h4>
+		<p class="numbered-list-subtitle mt-10"> </p>
+	</div>
+	<div class="js-numbered-list-content">
+
+		<!--<h4 class="numbered-list-subtitle mt-50" data-aos="fade-up"></h4>-->
+
+		<!--
+		<div class="tools mt-50 clear">
+						<div class="tool"><p>Design TeamLeading</p></div>
+						<div class="tool"><p>Teach TeamLeading</p></div>
+						<div class="tool"><p>UI Design</p></div>
+					</div>
+!-->
+		<div class="col-12" data-aos="fade-up">
+				<img class="col-12" src="img/erlang/desktop-screen7b02.jpg?=92AmRJ" alt="">
+		</div>
+
+		<p class="numbered-list-subtitle mt-50"></p>
+
+		<!--
+		<div class="tools mt-50 clear">
+						<div class="tool"><p>Design TeamLeading</p></div>
+						<div class="tool"><p>Teach TeamLeading</p></div>
+						<div class="tool"><p>UI Design</p></div>
+						<div class="tool"><p>Front-end development</p></div>
+						<div class="tool"><p>UX Design</p></div>
+						<div class="tool"><p>Project Managment</p></div>
+						<div class="tool"><p>Prototyping</p></div>
+						<div class="tool"><p>PHP Development</p></div>
+						<div class="tool"><p>Graphic Design</p></div>
+					</div>
+!-->
+	<div class="col-12 mt-100"  data-aos="fade-up">
+		<img class="col-12" src="img/erlang/website-mockups7b02.jpg?=92AmRJ" alt="Erlang website">
+	</div>
+	</div>
+</div>
+    <div class="TheResult erlang mt-140 clear">
+	<div class="numbered-list-container js-numbered-list-container mt-100 green-underline">
+		<div class="numbered-list-icon"><svg xmlns="http://www.w3.org/2000/svg" width="59.66" height="51" viewBox="0 0 59.66 51"><title>cs-printbox-result-3</title><path d="M0.67,3.5v51H29.538V3.5H0.67ZM27.613,52.575H2.594V5.425H27.613V52.575ZM32.425,54.5H60.33V3.5H32.425m1.925,1.925H58.406V52.575H34.349" transform="translate(-0.67 -3.5)" style="fill:#312e2d"/><line x1="3.849" y1="5.774" x2="13.472" y2="5.774" style="fill:none;stroke:#312e2d;stroke-miterlimit:10;stroke-width:2px"/><line x1="3.849" y1="9.623" x2="13.472" y2="9.623" style="fill:none;stroke:#312e2d;stroke-miterlimit:10;stroke-width:2px"/><line x1="3.849" y1="13.472" x2="13.472" y2="13.472" style="fill:none;stroke:#312e2d;stroke-miterlimit:10;stroke-width:2px"/><line x1="35.604" y1="5.774" x2="45.226" y2="5.774" style="fill:none;stroke:#312e2d;stroke-miterlimit:10;stroke-width:2px"/><line x1="35.604" y1="9.623" x2="45.226" y2="9.623" style="fill:none;stroke:#312e2d;stroke-miterlimit:10;stroke-width:2px"/><line x1="35.604" y1="13.472" x2="45.226" y2="13.472" style="fill:none;stroke:#312e2d;stroke-miterlimit:10;stroke-width:2px"/></svg></div>
+		<h4 class="numbered-list-title" id="mobile-apps">3. Responsive Web Design</h4>
+		<p class="numbered-list-subtitle mt-10"></p>
+	</div>
+	<div class="js-numbered-list-content">
+
+		<!--<h4 class="numbered-list-subtitle mt-50"></h4>-->
+
+		<!--
+		<div class="tools mt-50 clear">
+						<div class="tool"><p>Design TeamLeading</p></div>
+						<div class="tool"><p>Teach TeamLeading</p></div>
+						<div class="tool"><p>UI Design</p></div>
+					</div>
+!-->
+
+		<div class="mobile-devices-4-col clear">
+			<div class="col-3">
+				<div class="mobile-devices-container">
+					<div class="iphone">
+						<img class="iphone-screen" src="img/erlang/iphone-screen-17b02.jpg?=92AmRJ"
+							 alt="Printbox photo editor">
+						<img class="iphone-background" src="img/iphone7b02.png?=92AmRJ" alt="iphone">
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="mobile-devices-container">
+					<div class="iphone">
+						<img class="iphone-screen" src="img/erlang/iphone-screen-27b02.jpg?=92AmRJ"
+							 alt="Printbox photo editor">
+						<img class="iphone-background" src="img/iphone7b02.png?=92AmRJ" alt="iphone">
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="mobile-devices-container">
+					<div class="iphone">
+						<img class="iphone-screen" src="img/erlang/iphone-screen-37b02.jpg?=92AmRJ"
+							 alt="Printbox photo editor">
+						<img class="iphone-background" src="img/iphone7b02.png?=92AmRJ" alt="iphone">
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="mobile-devices-container">
+					<div class="iphone">
+						<img class="iphone-screen" src="img/erlang/iphone-screen-47b02.jpg?=92AmRJ"
+							 alt="Printbox photo editor">
+						<img class="iphone-background" src="img/iphone7b02.png?=92AmRJ" alt="iphone">
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<p class="numbered-list-subtitle mt-100"></p>
+
+		<!--
+		<div class="tools mt-50 clear">
+						<div class="tool"><p>Design TeamLeading</p></div>
+						<div class="tool"><p>Teach TeamLeading</p></div>
+						<div class="tool"><p>UI Design</p></div>
+					</div>
+!-->
+
+	<div class="col-12 mt-100">
+		<img class="col-12" src="img/erlang/website-mockups-tablet7b02.jpg?=92AmRJ" alt="Erlang website" data-aos="fade-up">
+	</div>
+
+	</div>
+</div>
+    <script src="../assets.pinterest.com/js/pinit.js"></script>
+<div class="share-save two-col-gap col-12 mt-100 clear"  data-aos="fade-up">
+    <div class="socials shareit col-6">
+        <div class="socials-text"><p>Share it</p></div>
+        <a class="socials--item" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fuigstudio.com%2Fcase-study-erlang">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a class="socials--item" target="_blank" href="https://twitter.com/home?status=https%3A%2F%2Fuigstudio.com%2Fcase-study-erlang">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="socials--item" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fuigstudio.com%2Fcase-study-erlang">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a class="socials--item" target="_blank"
+           href="https://plus.google.com/share?url=https%3A%2F%2Fuigstudio.com%2Fcase-study-erlang">
+            <i class="fa fa-google-plus"></i>
+        </a>
+    </div>
+    <div class="socials saveit col-6">
+        <div class="socials-text"><p>Save it</p></div>
+        <a class="socials--item" href="https://www.pinterest.com/pin/create/button/"
+            data-pin-do="buttonBookmark"
+            data-pin-custom="true">
+            <i class="fa fa-pinterest-p"></i>
+        </a>
+        <a class="socials--item" target="_blank" href="https://getpocket.com/edit.php?url=https%3A%2F%2Fuigstudio.com%2Fcase-study-erlang">
+            <i class="fa fa-get-pocket"></i>
+        </a>
+        <a class="socials--item social-svg" target="_blank" href="http://www.evernote.com/clip.action?url=https%3A%2F%2Fuigstudio.com%2Fcase-study-erlang">
+            <svg xmlns="http://www.w3.org/2000/svg" width="29.087" height="35.06" viewBox="0 0 29.087 35.06"><title>kk</title><path d="M2.8,6.8H6.1a0.319,0.319,0,0,0,.3-0.3V2.9a5.079,5.079,0,0,1,.3-1.7L6.9,1,0.4,7.3l0.3-.2A7.613,7.613,0,0,1,2.8,6.8Zm25.5-.6a2.708,2.708,0,0,0-1.8-2.3A24.906,24.906,0,0,0,22.8,3a42.143,42.143,0,0,0-4.6-.3A3.567,3.567,0,0,0,15.3.2,18.533,18.533,0,0,0,10.6,0a3.477,3.477,0,0,0-2,1,4.382,4.382,0,0,0-.7,2V6.4A1.71,1.71,0,0,1,6.2,8.2H3a5.079,5.079,0,0,0-1.7.3,6.47,6.47,0,0,1-.8.9A3.144,3.144,0,0,0,0,11.5a8.807,8.807,0,0,0,.2,1.7c0.1,0.9,1,6.6,1.9,8.6a2.539,2.539,0,0,0,1.3,1.4,40.9,40.9,0,0,0,6.9,1.7c1.7,0.2,2.8.7,3.4-.6,0.1-.3.2-0.5,0.3-0.8a15.225,15.225,0,0,0,.6-4.2c0-.1.2-0.1,0.2,0,0,0.8-.2,3.4,1.8,4.1a18.508,18.508,0,0,0,4.1.7c1.5,0.2,2.6.8,2.6,4.6,0,2.4-.5,2.7-3.1,2.7-2.1,0-2.9.1-2.9-1.7,0-1.3,1.3-1.2,2.4-1.2,0.4,0,.1-0.3.1-1.1,0-.9.5-1.3,0-1.3-3.4-.1-5.4,0-5.4,4.3,0,3.9,1.5,4.6,6.4,4.6,3.8,0,5.2-.1,6.7-5A43.784,43.784,0,0,0,29,21.2,94.206,94.206,0,0,0,28.3,6.2ZM21.7,16.6a3.75,3.75,0,0,0-1.1.1H20.4a0.1,0.1,0,0,1-.1-0.1h0V16.5a1.967,1.967,0,0,1,1.9-1.9A2.017,2.017,0,0,1,24,16.8V17a0.1,0.1,0,0,1-.1.1h0c-0.1,0-.1,0-0.1-0.1A7.789,7.789,0,0,0,21.7,16.6Z" transform="translate(0.025 0.06)" style="fill:#9f9b9c"/></svg>        </a>
+    </div>
+</div>
+    <div class="CaseStudyNavigation mt-140 clear">
+	<div class="grid">
+		<div class="column two-col-gap col-12" id="ReadMoreAbout">
+			<a href="case-study.html">
+				<div class="back mt-10">
+					<p>Back to list</p>
+					<img src="img/arrow-left7b02.svg?=92AmRJ" class="arrow" alt="Read more"/>
+				</div>
+			</a>
+			<a href="case-study-pigeon.html">
+				<div class="see-all mt-10">
+					<p>See next case study</p>
+					<img src="img/arrow7b02.svg?=92AmRJ" class="arrow" alt="Read more"/>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+    <div class="CaseStudiesList mt-10 clear">
+    <div class="element">
+        <a class="read-more-link" href="case-study-pigeon.html">
+            <img class="logo" src="img/brands/pigeon-logo7b02.png?=92AmRJ" alt="Case study Pigeon">
+            <div class="mobile-devices-container">
+                <div class="macbook">
+                    <img class="macbook-screen" src="img/casestudy/macbook-screen-pigeon-17b02.jpg?=92AmRJ"
+                         alt="Case study Erlang">
+                    <img class="macbook-background" src="img/macbook7b02.png?=92AmRJ" alt="MacBook">
+                </div>
+                <div class="iphone">
+                    <img class="iphone-screen" src="img/casestudy/iphone-screen-pigeon-17b02.jpg?=92AmRJ"
+                         alt="">
+                    <img class="iphone-background" src="img/iphone-sm7b02.png?=92AmRJ" alt="iPhone">
+                </div>
+            </div>
+            <div class="details-container">
+                <div class="underline"></div>
+                <div class="spans mt-30">
+                    <span class="design">PHOTOGRAPHY</span>
+                    <span class="design">WIREFRAMING</span>
+                    <span class="design">WEB DESIGN</span>
+                    <span class="design">RWD DESIGN</span>
+                    <span class="design">FRONT-END CODING</span>
+                    <span class="design">RWD CODING</span>
+                    <span class="design">WEB DEVELOPMENT</span>
+                </div>
+                <div class="read-more-btn mt-30">
+                        <div class="gray-text">Read more</div>
+                        <img src="img/arrow7b02.svg?=92AmRJ" alt="Read more" width="65">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="element">
+        <a href="case-study-renshee.html">
+            <img class="logo" src="img/brands/renshee-logo7b02.png?=92AmRJ" alt="Case study Renshee">
+            <div class="mobile-devices-container">
+                <div class="macbook">
+                    <img class="macbook-screen" src="img/printbox/macbook-screen-renshee7b02.jpg?=92AmRJ"
+                         alt="">
+                    <img class="macbook-background" src="img/macbook7b02.png?=92AmRJ" alt="MacBook">
+                </div>
+            </div>
+            <div class="details-container">
+                <div class="underline"></div>
+                <div class="spans mt-30">
+                    <span class="design">UI DESIGN</span>
+                    <span class="design">WEB DESIGN</span>
+                    <span class="design">STYLE GUIDE</span>
+                    <span class="design">WIREFRAMING</span>
+                </div>
+                <div class="read-more-btn mt-30">
+
+                    <div class="gray-text">Read more</div>
+                    <img src="img/arrow7b02.svg?=92AmRJ" alt="Read more" width="65">
+
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="element">
+        <a href="case-study-printbox.html">
+            <img class="logo" src="img/brands/printbox-logo-grey7b02.png?=92AmRJ" alt="Erlang Solutions">
+            <div class="mobile-devices-container">
+                <div class="macbook">
+                    <img class="macbook-screen" src="img/erlang/macbook-screen-printbox7b02.jpg?=92AmRJ" alt="">
+                    <img class="macbook-background" src="img/macbook7b02.png?=92AmRJ" alt="MacBook">
+                </div>
+                <div class="iphone">
+                    <img class="iphone-screen" src="img/erlang/iphone-screen-printbox7b02.jpg?=92AmRJ" alt="">
+                    <img class="iphone-background" src="img/iphone7b02.png?=92AmRJ" alt="iPhone">
+                </div>
+            </div>
+            <div class="details-container">
+                <div class="underline"></div>
+                <div class="spans mt-30">
+                    <span class="design">WIREFRAMING</span>
+                    <span class="design">UI DESIGN</span>
+                    <span class="design">UX DESIGN</span>
+                    <span class="design">WEB DESIGN</span>
+                    <span class="design">REACT DEVELOPMENT</span>
+                    <span class="design">WEB DEVELOPMENT</span>
+                    <span class="design">FRONT-END CODING</span>
+                    <span class="design">JS CODING</span>
+                    <span class="design">+8</span>
+                </div>
+                <div class="read-more-btn mt-30">
+
+                    <div class="gray-text">Read more</div>
+                    <img src="img/arrow7b02.svg?=92AmRJ" alt="Read more" width="65">
+
+                </div>
+
+            </div>
+        </a>
+    </div>
+</div>    <div class="CaseStudyNavigation back clear">
+	<a class="" href="case-study.html">
+		<div class="grid">
+			<div class="column two-col-gap col-12" id="ReadMoreAbout">
+				<div class="back bottom mt-10">
+					<p>Back to list</p>
+					<img src="img/arrow-left7b02.svg?=92AmRJ" class="arrow" alt="Read more"/>
+				</div>
+			</div>
+		</div>
+	</a>
+</div>
+    <div class="Contact mt-140">
+  <div>
+    <div class="hgroup">
+      <p class="title">Got a killer project? </p>
+      <p class="subtitle">Give us the details. </p>
+    </div>
+  </div>
+  <div>
+    <div class="container-notexpanded">
+      <a href="contact.html">
+        <p>Contact us</p>
+      <img src="img/arrow7b02.svg?=92AmRJ" class="arrow" alt="Read more" />
+      </a>
+    </div>
+  </div>
+</div>
+
+
+	<footer class="Footer mt-140" role="contentinfo">
+	<div class="menu">
+		<ul class="submenu">
+			<li class="submenu--item"><a href="studio.html">3J2Unlimited</a></li>
+			<li class="submenu--item"><a href="process.html"> The Process</a></li>
+			<li class="submenu--item"><a href="offer.html">What We Offer</a></li>
+			<li class="submenu--item"><a href="contact.html">Contact</a></li>
+			<li class="submenu--item"><a href="jobs.html">Jobs</a></li>
+			<li class="submenu--item"><a href="policy.html">Privacy Policy</a></li>
+		</ul>
+		<ul class="submenu">
+			<li class="submenu--item"><a href="case-study.html">Case Study</a></li>
+			<li class="submenu--item"><a href="case-study-printbox.html">Printbox</a></li>
+			<li class="submenu--item"><a href="case-study-pigeon.html">Studio Pigeon</a></li>
+			<li class="submenu--item"><a href="case-study-erlang.html">Erlang Solutions</a></li>
+			<li class="submenu--item"><a href="case-study-renshee.html">Renshee</a></li>
+		</ul>
+	</div>
+	<div class="socials">
+		<a class="socials--item" target="_blank" href="http://be.net/UIG">
+			<i class="fa fa-behance"></i>
+		</a>
+		<a class="socials--item" target="_blank" href="https://www.facebook.com/uigstudio">
+			<i class="fa fa-facebook"></i>
+		</a>
+		<a class="socials--item" target="_blank" href="http://dribbble.com/uigstudio">
+			<i class="fa fa-dribbble"></i>
+		</a>
+		<a class="socials--item" target="_blank"
+		   href="https://plus.google.com/u/0/b/116520515998940780988/116520515998940780988/">
+			<i class="fa fa-google-plus"></i>
+		</a>
+	</div>
+        <div class="notification--cookie">
+        <div>
+            <p>3J2Unlimited uses cookies to personalise your experience.
+                <span>By using this site you consent to the use of cookies. </span>
+                <a href="policy.html">Privacy Policy</a>
+            </p>
+        </div>
+        <div id="disagree">Disagree</div>
+        <div id="agree">Got it</div>
+    </div>
+    	<div class="row--long">
+		&copy; All Rights Reserved 2018 <span class="hiddendata"><span>HIDDEN</span><span>DATA</span></span> Sp. z
+		o.o.
+	</div>
+</footer>
+
+	
+	<script src="vendor/jquery.easypiechart.min7b02.js?=92AmRJ"></script>
+	<script src="js/uig-retina7b02.js?=92AmRJ"></script>
+	<script src="vendor/aos7b02.js?=92AmRJ"></script>
+	<script src="vendor/snap.svg-min7b02.js?=92AmRJ"></script>
+			<script src="js/svgicons.min7b02.js?=92AmRJ"></script>
+	<script src="js/scripts.min7b02.js?=92AmRJ"></script>
+		 	<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create', 'UA-41991758-1', 'auto');ga('send', 'pageview');
+    </script>
+
+	<script type="text/javascript">
+		var _mfq = _mfq || [];
+		(function () {
+		var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+		mf.src = "../cdn.mouseflow.com/projects/8a1a6290-dedc-4d8b-bb40-a68292aeec02.js";
+		document.getElementsByTagName("head")[0].appendChild(mf);
+	  })();
+	</script>
+		
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer src="../js.hs-scripts.com/2520733.js"></script>
+	<!-- End of HubSpot Embed Code -->
+
+	<!-- lead forensics -->
+	<script type="text/javascript" src="../www.cben9a9s1.com/js/108935.js" ></script>
+	<noscript><img alt="" src="../www.cben9a9s1.com/108935.png" style="display:none;" /></noscript>
+	<!-- / lead forensics -->
+	 	    <script src="js/banner7b02.js?=92AmRJ"></script>
+    <script src="js/cs-accordeon7b02.js?=92AmRJ"></script>
+	</body>
+
+<!-- Mirrored from uigstudio.com/case-study-erlang by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Sep 2018 16:05:38 GMT -->
+</html>
