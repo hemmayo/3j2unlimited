@@ -1,113 +1,14 @@
+<?php $title = "3J2Unlimited";?>
 <!DOCTYPE html>
 <html lang="en">
-<!--
-                      _    _  __  _  _ _____  ___ ___
-                      | /\ | |__| |\ |   |   |___ |  \
-                      |/  \| |  | | \|   |   |___ |__/
-
-         F O R   C R I M E S   A G A I N S T   T H E   E M P I R E
-
- ________________________  _________________________  _______________________
-|        .......       LS||      .x%%%%%%x.         ||  ,.------;:~~:-.      |
-|      ::::::;;::.       ||     ,%%%%%%%%%%%        || /:.\`;;|||;:/;;:\     |
-|    .::;::::;::::.      ||    ,%%%'  )'  \%        ||:')\`:\||::/.-_':/)    |
-|   .::::::::::::::      ||   ,%x%) __   _ Y        ||`:`\\\ ;'||'.''/,.:\   |
-|   ::`_```_```;:::.     ||   :%%% ~=-. <=~|        ||==`;.:`|;::/'/./';;=   |
-|   ::=-) :=-`  ::::     ||   :%%::. .:,\  |        ||:-/-%%% | |%%%;;_- _:  |
-| `::|  / :     `:::     ||   `;%:`\. `-' .'        ||=// %wm)..(mw%`_ :`:\  |
-|   '|  `~'     ;:::     ||    ``x`. -===-;         ||;;--', /88\ -,- :-~~|  |
-|    :-:==-.   / :'      ||     / `:`.__.;          ||-;~~::'`~^~:`::`/`-=:) |
-|    `. _    .'.d8:      ||  .d8b.  :: ..`.         ||(;':)%%%' `%%%.`:``:)\ |
-| _.  |88bood88888._     || d88888b.  '  /8         ||(\ %%%/dV##Vb`%%%%:`-. |
-|~  `-+8888888888P  `-. _||d888888888b. ( 8b       /|| |);/( ;~~~~ :)\`;;.``\|
-|-'     ~~^^^^~~  `./8 ~ ||~   ~`888888b  `8b     /:|| //\'/,/|;;|:(: |.|\;|\|
-|8b /  /  |   \  \  `8   ||  ' ' `888888   `8. _ /:/||/) |(/ | / \|\\`( )- ` |
-|P        `          8   ||'      )88888b   8b |):X ||;):):)/.):|/) (`:`\\`-`|
-|                    8b  ||   ~ - |888888   `8b/:/:\||;%/ //;/(\`.':| ::`\\;`|
-|                    `8  ||       |888888    88\/~~;||;/~( \|./;)|.|):;\. \\-|
-|                     8b ||       (888888b   88|  / ||/',:\//) ||`.|| (:\)):%|
-|         .           `8 ||\       \888888   8-:   /||,|/;/(%;.||| (|(\:- ; :|
-|________/_\___________8_||_\_______\88888_.'___\__/||_%__%:__;_:`_;_:_.\%_`_|
-
-L u k e  S k y w a l k e r      H a n   S o l o          C h e w b a c c a
-
-Self-Proclaimed Jedi Knight     Smuggler, Pirate         Smuggler, Pirate
-     500,000 credits            200,000 credits          100,000 credits
-
-               The above are wanted for the following crimes:
-
-    - Liberation of a known criminal, Princess Leia Organa of Alderaan -
-         - Direct involvement in armed revolt against the Empire -
-                              - High treason -
-                               - Espionage -
-                               - Conspiracy -
-                    - Destruction of Imperial Property -
-
-           These individuals are considered extremely dangerous.
-
-       E X P E R I E N C E D   B O U N T Y   H U N T E R S   O N L Y
-
-  The Empire will not  be held  responsible  for any  injuries or property
-  loss arising from the  attempted apprehension of these  notorious crimi-
-  nals. Bounty is for live capture only! For more information contact your
-  local Imperial Intelligence Office.
-                
--->
-
 <head>
 	<?php require "includes/head.php"; ?>
 </head>
 
 <body class="container">
 	
-	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "Organization",
-			"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Cracow, Poland",
-				"postalCode": "31-008",
-				"streetAddress": "Rynek Główny 17"
-			},
-			"email": "hi(at)3j2unlimited.com",
-			"name": "3J2Unlimited",
-			"telephone": "+2348"
-		}
-	</script>
-	<header class="Header active">
-		<div class="container">
-			<div class="content fadeInHeader">
-				<div class="logo">
-					<a href="index.html">
-						<svg xmlns="http://www.w3.org/2000/svg" width="27.901" height="40" viewBox="0 0 27.901 40">
-							<path d="M0,4.868v26.85a0.539,0.539,0,0,0,.27.467l13.411,7.743a0.539,0.539,0,0,0,.539,0l13.411-7.743a0.539,0.539,0,0,0,.27-0.467V16.949a0.539,0.539,0,0,0-.809-0.467l-5.358,3.093a0.539,0.539,0,0,0,0,.934L24.144,21.9a0.539,0.539,0,0,1,.27.467V29.8a0.539,0.539,0,0,1-.27.467L16.5,34.678a0.539,0.539,0,0,1-.809-0.467V15.225a0.539,0.539,0,0,1,.27-0.467L27.631,8.022a0.539,0.539,0,0,0,.27-0.467V4.867A0.539,0.539,0,0,0,27.092,4.4L13.95,11.988l-1.474.851a0.539,0.539,0,0,0-.27.467V34.233a0.539,0.539,0,0,1-.81.466L3.756,30.266A0.539,0.539,0,0,1,3.488,29.8V6.258a0.539,0.539,0,0,0-.27-0.467L0.809,4.4A0.539,0.539,0,0,0,0,4.868Z"
-							 style="fill:#312e2d" />
-							<path d="M14.138,7.763l6.058-3.5a0.4,0.4,0,0,0,0-.7L14.138,0.054a0.411,0.411,0,0,0-.408,0L7.666,3.56a0.4,0.4,0,0,0,0,.7l6.064,3.5A0.411,0.411,0,0,0,14.138,7.763Z"
-							 style="fill:#312e2d" /></svg>
-					</a>
-				</div>
-				<button class="menu-btn js-menu-btn"><span></span></button>
-				<ul class="menu">
-					<li class="menu--item">
-						<a href="process.html"> The Process</a>
-					</li>
-					<li class="menu--item">
-						<a href="offer.html">What We Offer</a>
-					</li>
-					<li class="menu--item">
-						<a href="case-study.html">Case Study</a>
-					</li>
-					<li class="menu--item">
-						<a href="studio.html">About Us</a>
-					</li>
-					<li class="menu--item">
-						<a href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
+	<?php require "includes/nav.php"; ?>
+
 	<div class="MainBanner clear">
 	<div class="background">
 		<video id="main-intro" class="main-intro" autoplay="" loop="" muted="">
@@ -120,11 +21,11 @@ Self-Proclaimed Jedi Knight     Smuggler, Pirate         Smuggler, Pirate
 		<p class="overtitle overtitle-animation">We are</p>
 		<h1 class="title title-animation">
 			<span>3J2</span>
-			<span class="subtitle subtitle-animation">DESIGN AND WEB DEVELOPMENT STUDIO.</span>
+			<span class="subtitle subtitle-animation">DESIGN AND SOFTWARE COMPANY.</span>
 		</h1>
 		<p class="description description-animation">
 			Our team designs UI for mobile and web applications. <br>
-We develop beautiful &amp; cutting edge web apps &amp; websites.<br>
+We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 
 		</p>
 	</div>
@@ -408,7 +309,7 @@ We develop beautiful &amp; cutting edge web apps &amp; websites.<br>
 					<img src="img/testimonials/michael_arking7b02.jpg?=92AmRJ" alt="Michael Arking" />
 				</div>
 				<div class="quote">
-					"The whole team at UIG are not only professional, but real artists as well. They do great work, are reliable, and
+					"The whole team at 3J2Unlimited are not only professional, but real artists as well. They do great work, are reliable, and
 					are a pleasure to work with. I highly recommend them for your next project. You won&#039;t be disappointed!"
 				</div>
 			</div>
@@ -430,7 +331,7 @@ We develop beautiful &amp; cutting edge web apps &amp; websites.<br>
 					<img src="img/testimonials/eoin_matthews7b02.jpg?=92AmRJ" alt="Eoin Matthews" />
 				</div>
 				<div class="quote">
-					"UIG team have done some excellent design work for us on short notice and on an appropriate budget for the high
+					"3J2Unlimited team have done some excellent design work for us on short notice and on an appropriate budget for the high
 					quality of the work. They have a strong design culture and they maintain the sort of process control that makes
 					them an easy remote partner to work with. Pawel is an excellent manager and runs a tight ship that is superior to
 					most Silicon Valley design studios - highly recommended."
@@ -474,7 +375,7 @@ We develop beautiful &amp; cutting edge web apps &amp; websites.<br>
 			</div>
 		</div>
 	</div>
-	<div class="BookPreorder mt-140" data-aos="fade-up">
+	<div class="BookPreorder mt-140" data-aos="fade-up" hidden>
 		<div class="cover" data-title="Coming soon!">
 			<img src="img/cover7b02.png?=92AmRJ" alt="Responsive Design Best Practices">
 		</div>
@@ -572,7 +473,7 @@ We develop beautiful &amp; cutting edge web apps &amp; websites.<br>
 		</div>
 		<div>
 			<div class="container-notexpanded">
-				<a href="contact.html">
+				<a href="contact.php">
 					<p>Contact us</p>
 					<img src="img/arrow7b02.svg?=92AmRJ" class="arrow" alt="Read more" />
 				</a>

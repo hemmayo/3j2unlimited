@@ -1,10 +1,10 @@
 <footer class="Footer mt-140" role="contentinfo">
     <div class="menu">
         <ul class="submenu">
-            <li class="submenu--item"><a href="studio.html">3J2Unlimited</a></li>
+            <li class="submenu--item"><a href="about-us.php">3J2Unlimited</a></li>
             <li class="submenu--item"><a href="process.html"> The Process</a></li>
             <li class="submenu--item"><a href="offer.html">What We Offer</a></li>
-            <li class="submenu--item"><a href="contact.html">Contact</a></li>
+            <li class="submenu--item"><a href="contact.php">Contact</a></li>
             <li class="submenu--item"><a href="jobs.html">Jobs</a></li>
             <li class="submenu--item"><a href="policy.html">Privacy Policy</a></li>
         </ul>
@@ -17,13 +17,13 @@
         </ul>
     </div>
     <div class="socials">
-        <a class="socials--item" target="_blank" href="http://be.net/UIG">
+        <a class="socials--item" target="_blank" href="http://be.net/3J2Unlimited">
             <i class="fa fa-behance"></i>
         </a>
-        <a class="socials--item" target="_blank" href="https://www.facebook.com/uigstudio">
+        <a class="socials--item" target="_blank" href="https://www.facebook.com/3J2Unlimited">
             <i class="fa fa-facebook"></i>
         </a>
-        <a class="socials--item" target="_blank" href="http://dribbble.com/uigstudio">
+        <a class="socials--item" target="_blank" href="http://dribbble.com/3J2Unlimited">
             <i class="fa fa-dribbble"></i>
         </a>
         <a class="socials--item" target="_blank" href="https://plus.google.com/u/0/b/116520515998940780988/116520515998940780988/">
@@ -53,7 +53,7 @@
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-41991758-1', 'auto');
     ga('send', 'pageview');
 </script>
@@ -64,23 +64,23 @@
         var mf = document.createElement("script");
         mf.type = "text/javascript";
         mf.async = true;
-        mf.src = "../cdn.mouseflow.com/projects/8a1a6290-dedc-4d8b-bb40-a68292aeec02.js";
+        mf.src = "//cdn.mouseflow.com/projects/8a1a6290-dedc-4d8b-bb40-a68292aeec02.js";
         document.getElementsByTagName("head")[0].appendChild(mf);
     })();
 </script>
 
 <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="../js.hs-scripts.com/2520733.js"></script>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2520733.js"></script>
 <!-- End of HubSpot Embed Code -->
 
 <!-- lead forensics -->
-<script type="text/javascript" src="../www.cben9a9s1.com/js/108935.js"></script>
-<noscript><img alt="" src="../www.cben9a9s1.com/108935.png" style="display:none;" /></noscript>
+<script type="text/javascript" src="//www.cben9a9s1.com/js/108935.js"></script>
+<noscript><img alt="" src="//www.cben9a9s1.com/108935.png" style="display:none;" /></noscript>
 <!-- / lead forensics -->
 <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
 <script src="vendor/particles.min7b02.js?=92AmRJ"></script>
 <script src="vendor/waypoints.min7b02.js?=92AmRJ"></script>
-<script type='text/javascript' src='../s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript' href='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>
     (function ($) {
         window.fnames = new Array();
