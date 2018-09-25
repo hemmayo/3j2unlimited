@@ -3,7 +3,7 @@
         <ul class="submenu">
             <li class="submenu--item"><a href="about-us.php">3J2Unlimited</a></li>
             <li class="submenu--item"><a href="process.html"> The Process</a></li>
-            <li class="submenu--item"><a href="offer.html">What We Offer</a></li>
+            <li class="submenu--item"><a href="contact.php">What We Offer</a></li>
             <li class="submenu--item"><a href="contact.php">Contact</a></li>
             <li class="submenu--item"><a href="jobs.html">Jobs</a></li>
             <li class="submenu--item"><a href="policy.html">Privacy Policy</a></li>

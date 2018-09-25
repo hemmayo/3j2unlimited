@@ -24,12 +24,6 @@
             <button class="menu-btn js-menu-btn"><span></span></button>
             <ul class="menu">
                 <li class="menu--item">
-                    <a href="process.html"> The Process</a>
-                </li>
-                <li class="menu--item">
-                    <a href="offer.html">What We Offer</a>
-                </li>
-                <li class="menu--item">
                     <a href="our-works.php">Our Works</a>
                 </li>
                 <li class="menu--item">

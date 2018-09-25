@@ -255,7 +255,7 @@
 			<p class="section-subtitle red-underline">Fill out the brief and we will get back to you shortly.</p>
 		</div>
 		<p class="section-text"></p>
-		<a href="offer.html">
+		<a href="contact.php">
 			<div class="button-frame mt-50">Fill out the brief</div>
 		</a>
 	</div>

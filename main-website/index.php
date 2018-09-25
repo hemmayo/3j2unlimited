@@ -10,15 +10,13 @@
 	<?php require "includes/nav.php"; ?>
 
 	<div class="MainBanner clear">
-	<div class="background" style="background: url('https://images.pexels.com/photos/1204649/pexels-photo-1204649.jpeg?auto=co/mpress&cs=tinysrgb&h=650&w=940') no-repeat; background-size: cover; height: 10vh; width: 100%">
-		
-	</div>
 
-	<div class="content">
+
+	<div class="content" style="background: /* linear-gradient(10deg, white, rgba(255, 255, 255, .4)),*/ url('img/background.jpg'); background-size: cover;">
 		<p class="overtitle overtitle-animation">Our </p>
 		<h1 class="title title-animation">
 			<span>Passion</span>
-			<span class="subtitle subtitle-animation">...is to enhance business processes</span>
+			<span class="subtitle subtitle-animation" style="font-size: xx-large">...is to enhance business processes</span>
 		</h1>
 		<p class="description description-animation">
 		We love to create tech solution that meets the needs of our CLIENTS. <br>
@@ -55,7 +53,7 @@
 				<p class="subtitle">
 				This is the first step owning a digital asset online is to have a tailored website for your business.
 				</p>
-				<a href="offer.html" class="arrow-btn">
+				<a href="contact.php" class="arrow-btn">
 					<div class="text">
 						Read more
 					</div>
@@ -83,7 +81,7 @@
 				<p class="subtitle">
 				The Mobile App keeps your business on the faces of your potential clients with push notifications.
 				</p>
-				<a href="offer.html" class="arrow-btn">
+				<a href="contact.php" class="arrow-btn">
 					<div class="text">
 						Read more
 					</div>
@@ -131,7 +129,7 @@
 				<p class="subtitle">
 				Potential clients and business want to interact with a trusted brand. Having a brand look that is consistent in all platforms is key to sustainability.
 				</p>
-				<a href="offer.html" class="arrow-btn">
+				<a href="contact.php" class="arrow-btn">
 					<div class="text">
 						Read more
 					</div>
@@ -157,7 +155,7 @@
 				<p class="subtitle">
 				We create customised online PR promotion that will keep your business in front of your selected target market.
 				</p>
-				<a href="offer.html" class="arrow-btn">
+				<a href="contact.php" class="arrow-btn">
 					<div class="text">
 						Read more
 					</div>
@@ -292,7 +290,7 @@
 				<p class="title">Lucy Momodu</p>
 				<p class="subtitle">Luceez Global Trends Limited</p>
 				<div class="avatar">
-					<img src="img/testimonials/michael_arking7b02.jpg?=92AmRJ" alt="Lucy Momodu" />
+					<img src="img/clients/lucy.jpg" alt="Lucy Momodu" />
 				</div>
 				<div class="quote">
 					"I met Micheal at a workshop I went for, he was one of the speakers who inspired me to do more for my business which prompted me to use him for my website. He was patient when changes needed to be done and was (and still is) always available to answer questions or provide support. Thanks a lot Micheal and I wish u greatness in all u do cos u deserve it
@@ -303,7 +301,7 @@
 				<p class="title">Stella Adu</p>
 				<p class="subtitle">Prolific Global Concepts</p>
 				<div class="avatar">
-					<img src="img/testimonials/eoin_matthews7b02.jpg?=92AmRJ" alt="Stella Adu (Prolificstella)" />
+					<img src="img/clients/stella.jpg" alt="Stella Adu (Prolificstella)" />
 				</div>
 				<div class="quote">
 					"Can’t thank you enough for your tireless effort-night and day, in collecting & gathering the necessary information to seeing prolificstella.com comes up within the space of two weeks of starting out the website… What a dedicated techpreneur you are!?? Keep it up? @prolificstella
@@ -314,7 +312,7 @@
 				<p class="title">Tosin Tologbonshe</p>
 				<p class="subtitle">HNaija Gospel Lyrics Blogger</p>
 				<div class="avatar">
-					<img src="img/testimonials/sebastian_huber7b02.jpg?=92AmRJ" alt="Tosin Tologbonshe" />
+					<img src="img/clients/tosin.jpg" alt="Tosin Tologbonshe" />
 				</div>
 				<div class="quote">
 					"I met Michael this year and it has been a wonderful experience and the way he helps me with my blog is awesome always ready to help anytime.
@@ -326,7 +324,7 @@
 				<p class="title">Toyin Elegbede</p>
 				<p class="subtitle">BraceUp Group Chief Blogger</p>
 				<div class="avatar">
-					<img src="img/testimonials/darren_wendroff7b02.jpg?=92AmRJ" alt="Toyin Elegbede" />
+					<img src="img/clients/toyin.jpg" alt="Toyin Elegbede" />
 				</div>
 				<div class="quote">
 					"I sincerely want to appreciate 3j2unlimited technology for making our birth a reality. Long live 3j2
@@ -337,24 +335,24 @@
 				<p class="title">Moyotician</p>
 				<p class="subtitle">The Lifematics Centre</p>
 				<div class="avatar">
-					<img src="img/testimonials/adrian_kajda7b02.jpg?=92AmRJ" alt="Moyotician" />
+					<img src="img/clients/moyo.jpg" alt="Moyotician" />
 				</div>
 				<div class="quote">
 					"Michael creates unique websites and give tips on how to attract traffic to the website. He has a way of taking an idea from you and developing it to something you will be grateful for."				</div>
 			</div>
 		</div>
-		<div class="black-box">
+		<div class="black-box" style="background: #00c960">
 			<div class="hgroup">
-				<p class="black-box-number-lg" data-value="52" onScrollCount>0</p>
-				<p class="black-box-number-lg-text">Unique projects completed</p>
+				<p class="black-box-number-lg" data-value="47" onScrollCount>47</p>
+				<p class="black-box-number-lg-text">Projects completed</p>
 			</div>
 			<div class="hgroup">
-				<div class="black-box-number" data-value="786" onScrollCount>0</div>
-				<div class="black-box-number-text">Screens designed</div>
-				<div class="black-box-number" data-value="55" onScrollCount>0</div>
-				<div class="black-box-number-text">Lines of code written</div>
-				<div class="black-box-number" data-value="20" onScrollCount>0</div>
-				<div class="black-box-number-text">Awards and nominations achieved</div>
+				<div class="black-box-number" data-value="24" onScrollCount>24</div>
+				<div class="black-box-number-text">Websites</div>
+				<div class="black-box-" style="font-size: 48px" data-value="8" onScrollCount>8</div>
+				<div class="black-box-number-text">Mobile Apps</div>
+				<div class="black-box-number" data-value="15" onScrollCount>15</div>
+				<div class="black-box-number-text">Branding</div>
 			</div>
 		</div>
 	</div>
@@ -381,69 +379,149 @@
 			<p class="section-subtitle red-underline">Fill out the brief and we will get back to you shortly.</p>
 		</div>
 		<p class="section-text"></p>
-		<a href="offer.html">
+		<a href="contact.php">
 			<div class="button-frame mt-50">Fill out the brief</div>
 		</a>
 	</div>
 	<div class="Clients mt-140" data-aos="fade-up">
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/erlang7b02.png?=92AmRJ)">
-				<img src="img/brands/erlang7b02.png?=92AmRJ" alt="Erlang Solutions">
+			<div class="content" style="">
+				<img src="img/brands/bloom kiddies.png" style="opacity: 1" alt="Bloom Kiddies">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/printbox7b02.png?=92AmRJ)">
-				<img src="img/brands/printbox7b02.png?=92AmRJ" alt="Printbox">
+			<div class="content" style="">
+				<img src="img/brands/bohemainls.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/pigeon7b02.png?=92AmRJ)">
-				<img src="img/brands/pigeon7b02.png?=92AmRJ" alt="Studio Pigeon">
+			<div class="content" style="">
+				<img src="img/brands/brace up.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/fox-networks7b02.png?=92AmRJ)">
-				<img src="img/brands/fox-networks7b02.png?=92AmRJ" alt="FOX Networks">
+			<div class="content" style="">
+				<img src="img/brands/esta lauren.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/wiredavenue7b02.png?=92AmRJ)">
-				<img src="img/brands/wiredavenue7b02.png?=92AmRJ" alt="Wired Avenue">
+			<div class="content" style="">
+				<img src="img/brands/golden crust pizza.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/drhedaya7b02.png?=92AmRJ)">
-				<img src="img/brands/drhedaya7b02.png?=92AmRJ" alt="DrHedaya">
+			<div class="content" style="">
+				<img src="img/brands/hara.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/carespotter7b02.png?=92AmRJ)">
-				<img src="img/brands/carespotter7b02.png?=92AmRJ" alt="CareSpotter">
+			<div class="content" style="">
+				<img src="img/brands/health max hospital.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/share7b02.png?=92AmRJ)">
-				<img src="img/brands/share7b02.png?=92AmRJ" alt="Share">
+			<div class="content" style="">
+				<img src="img/brands/hski.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/budget-hotel7b02.png?=92AmRJ)">
-				<img src="img/brands/budget-hotel7b02.png?=92AmRJ" alt="Budget Hotel">
+			<div class="content" style="">
+				<img src="img/brands/kastech.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/thirdlove7b02.png?=92AmRJ)">
-				<img src="img/brands/thirdlove7b02.png?=92AmRJ" alt="Thirdlove">
+			<div class="content" style="">
+				<img src="img/brands/kingsleys.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/renshee7b02.png?=92AmRJ)">
-				<img src="img/brands/renshee7b02.png?=92AmRJ" alt="Renshee">
+			<div class="content" style="">
+				<img src="img/brands/lambert chase.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 		<div class="element">
-			<div class="content" style="background-image: url(img/brands/fox7b02.png?=92AmRJ)">
-				<img src="img/brands/fox7b02.png?=92AmRJ" alt="Fox Media">
+			<div class="content" style="">
+				<img src="img/brands/lifematics.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/luceez.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/naijagospel.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/naijaload.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/numeracy circle.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/pulse.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/queen sha.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/red tag.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/rely health and safety.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/royal roots.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/scott ikporo.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/simply expontential.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/tech wealth.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/vanguard.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/woleye.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/wonsign.png" style="opacity: 1" alt="Erlang Solutions">
+			</div>
+		</div>
+		<div class="element">
+			<div class="content" style="">
+				<img src="img/brands/wyte.png" style="opacity: 1" alt="Erlang Solutions">
 			</div>
 		</div>
 	</div>
