@@ -9,7 +9,7 @@
             <li class="submenu--item"><a href="policy.html">Privacy Policy</a></li>
         </ul>
         <ul class="submenu">
-            <li class="submenu--item"><a href="case-study.html">Case Study</a></li>
+            <li class="submenu--item"><a href="our-works.php">Case Study</a></li>
             <li class="submenu--item"><a href="case-study-printbox.html">Printbox</a></li>
             <li class="submenu--item"><a href="case-study-pigeon.html">Studio Pigeon</a></li>
             <li class="submenu--item"><a href="case-study-erlang.html">Erlang Solutions</a></li>

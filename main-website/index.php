@@ -10,22 +10,20 @@
 	<?php require "includes/nav.php"; ?>
 
 	<div class="MainBanner clear">
-	<div class="background">
-		<video id="main-intro" class="main-intro" autoplay="" loop="" muted="">
-			<source src="/media/main.mp4?=92AmRJ" type="video/mp4">
-			<img src="/img/welcome-img.jpg?=92AmRJ" alt="Welcome">
-		</video>
+	<div class="background" style="background: url('https://images.pexels.com/photos/1204649/pexels-photo-1204649.jpeg?auto=co/mpress&cs=tinysrgb&h=650&w=940') no-repeat; background-size: cover; height: 10vh; width: 100%">
+		
 	</div>
 
 	<div class="content">
-		<p class="overtitle overtitle-animation">We are</p>
+		<p class="overtitle overtitle-animation">Our </p>
 		<h1 class="title title-animation">
-			<span>3J2</span>
-			<span class="subtitle subtitle-animation">DESIGN AND SOFTWARE COMPANY.</span>
+			<span>Passion</span>
+			<span class="subtitle subtitle-animation">...is to enhance business processes</span>
 		</h1>
 		<p class="description description-animation">
-			Our team designs UI for mobile and web applications. <br>
-We develop beautiful &amp; cutting edge apps &amp; websites.<br>
+		We love to create tech solution that meets the needs of our CLIENTS. <br>
+		We are 99% on customer service but the only 1% we still pursue to <br>ensure we get the best possible feedback. <br><b>That's our passion!</b>
+			<br>
 
 		</p>
 	</div>
@@ -53,10 +51,9 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 						<path id="path1" d="M3,3.333V35.749A1.251,1.251,0,0,0,4.251,37h57.5A1.251,1.251,0,0,1,63,38.251V65.156" transform="translate(0 0)"
 						 fill="none" stroke="#302d2d" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="120.74901126623499" />
 					</svg> </div>
-				<h2 class="title">Prototypying &amp; UX Strategy</h2>
+				<h2 class="title">Website Development</h2>
 				<p class="subtitle">
-					Getting your business strategy right for a unique user journey. From the first sketch to the fully-armed
-					prototype.
+				This is the first step owning a digital asset online is to have a tailored website for your business.
 				</p>
 				<a href="offer.html" class="arrow-btn">
 					<div class="text">
@@ -82,10 +79,9 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 							<path d="M54,60H68v2H54V60Z" fill="#302d2d" />
 						</g>
 					</svg> </div>
-				<h2 class="title">Web &amp; Mobile Design</h2>
+				<h2 class="title">Mobile App Development</h2>
 				<p class="subtitle">
-					Engaging experiences with interacive details, pushing pixels to the limit.<br />
-					Your concept deserves spont-on execution.
+				The Mobile App keeps your business on the faces of your potential clients with push notifications.
 				</p>
 				<a href="offer.html" class="arrow-btn">
 					<div class="text">
@@ -131,10 +127,9 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 							<path d="M83.8,23.3L60.6,0.2,59.2,1.6,82.4,24.7Z" fill="#302d2d" />
 						</g>
 					</svg> </div>
-				<h2 class="title">Front-End &amp; JS Coding</h2>
+				<h2 class="title">Branding</h2>
 				<p class="subtitle">
-					In order to put your design and interaction goals into the browser, you need to have a code magic – magic made by
-					developers who &quot;feel&quot; your design.
+				Potential clients and business want to interact with a trusted brand. Having a brand look that is consistent in all platforms is key to sustainability.
 				</p>
 				<a href="offer.html" class="arrow-btn">
 					<div class="text">
@@ -158,10 +153,9 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 						<path id="rect-m" d="M10,10V47H47V10H10ZM45,45H12V12H45V45Z" fill="#302d2d" />
 						<path id="rect-s" d="M20,20V37H37V20H20ZM35,35H22V22H35V35Z" fill="#302d2d" />
 					</svg> </div>
-				<h2 class="title">Web Development</h2>
+				<h2 class="title">Digital Marketing</h2>
 				<p class="subtitle">
-					Every app requires an appropriate engine – a team with a multifaceted approach to the complete product development
-					lifecycle.
+				We create customised online PR promotion that will keep your business in front of your selected target market.
 				</p>
 				<a href="offer.html" class="arrow-btn">
 					<div class="text">
@@ -187,8 +181,8 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 		</div>
 		<div>
 			<div class="container-notexpanded">
-				<a class="read-more-link" href="case-study.html">
-					<p>Case studies</p>
+				<a class="read-more-link" href="our-works.php">
+					<p>Our works</p>
 					<img src="img/arrow7b02.svg?=92AmRJ" class="arrow" alt="Read more" />
 				</a>
 			</div>
@@ -201,28 +195,24 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 				<div class="mobile-devices-container">
 					<div class="macbook">
 
-						<img class="macbook-background" src="img/printbox-macbook-cs7b02.jpg?=92AmRJ" alt="MacBook">
+						<img class="macbook-background" src="img/portfolio/luceez-01.jpg" alt="MacBook">
 					</div>
 					<div class="iphone">
-						<img class="iphone-background" src="img/printbox-iphone7b02.png?=92AmRJ" alt="Case study Printbox Mobile Screen">
+						<img class="iphone-background" src="img/portfolio/luceez-02.jpg" alt="Case study Printbox Mobile Screen">
 					</div>
 				</div>
 				<div class="element-description">
-					<h3 class="element-description-name red-underline">Printbox</h3>
+					<h3 class="element-description-name red-underline">Luceez</h3>
 				</div>
 				<div class="details-container">
 					<div class="underline"></div>
 					<div class="spans">
 
-						<span class="design">WIREFRAMING</span>
-						<span class="design">UI DESIGN</span>
-						<span class="design">UX DESIGN</span>
-						<span class="design">WEB DESIGN</span>
-						<span class="design">REACT DEVELOPMENT</span>
+						<span class="design">WORDPRESS</span>
+						<span class="design">E-COMMERCE</span>
 						<span class="design">WEB DEVELOPMENT</span>
 						<span class="design">FRONT-END CODING</span>
 						<span class="design">JS CODING</span>
-						<span class="design">+8</span>
 					</div>
 					<div class="read-more-btn">
 						<img src="img/arrow7b02.svg?=92AmRJ" alt="Read more" width="65">
@@ -235,23 +225,21 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 				<a class="read-more-link" href="case-study-erlang.html">
 					<div class="mobile-devices-container">
 						<div class="macbook">
-							<img class="macbook-screen" src="img/printbox/macbook-screen-erlang7b02.jpg?=92AmRJ" alt="Case study Erlang Solutions Screen">
-							<img class="macbook-background" src="img/macbook7b02.png?=92AmRJ" alt="MacBook">
-							<!--<img class="macbook-shadow" src="/img/m.png?=92AmRJ" alt="">-->
+							<!-- <img class="macbook-screen" src="img/portfolio/max-01.jpg" alt="Case study Erlang Solutions Screen"> -->
+							<img class="macbook-background" src="img/portfolio/max-01.jpg" alt="MacBook">
+							<img class="macbook-shadow" src="/img/m.png?=92AmRJ" alt="">
 						</div>
 					</div>
 					<div class="element-description">
-						<h3 class="element-description-name red-underline">Erlang Solutions</h3>
+						<h3 class="element-description-name red-underline">Max Health</h3>
 					</div>
 					<div class="details-container">
 						<div class="underline"></div>
 						<div class="spans">
-							<span class="design">WIREFRAMING</span>
 							<span class="design">UI DESIGN</span>
-							<span class="design">WEB DESIGN</span>
-							<span class="design">RWD DESIGN</span>
+							<span class="design">WEBSITE DEVELOPMENT</span>
+							<span class="design">APPOINTMENTS</span>
 							<span class="design">FRONT-END CODING</span>
-							<span class="design">RWD CODING</span>
 							<span class="design">+1</span>
 						</div>
 						<div class="read-more-btn">
@@ -266,20 +254,18 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 				<a class="read-more-link" href="case-study-pigeon.html">
 					<div class="mobile-devices-container">
 						<div class="macbook">
-							<img class="macbook-screen" src="img/casestudy/macbook-screen-pigeon-17b02.jpg?=92AmRJ" alt="Case study Pigeon Screen">
-							<img class="macbook-background" src="img/macbook7b02.png?=92AmRJ" alt="MacBook">
+							<img class="macbook-background" src="img/portfolio/bohemienls.jpg" alt="MacBook">
 						</div>
 					</div>
 					<div class="element-description">
-						<h3 class="element-description-name red-underline">Pigeon</h3>
+						<h3 class="element-description-name red-underline">Bohemienls</h3>
 					</div>
 					<div class="details-container">
 						<div class="underline"></div>
 						<div class="spans">
-							<span class="design">PHOTOGRAPHY</span>
+							<span class="design">WORDPRESS</span>
 							<span class="design">WIREFRAMING</span>
 							<span class="design">WEB DESIGN</span>
-							<span class="design">RWD DESIGN</span>
 							<span class="design">FRONT-END CODING</span>
 							<span class="design">WEB DEVELOPMENT</span>
 							<span class="design">+1</span>
@@ -303,61 +289,58 @@ We develop beautiful &amp; cutting edge apps &amp; websites.<br>
 		</div>
 		<div class="testimonials-container">
 			<div class="testimonial" data-aos="fade-up">
-				<p class="title">Michael Arking</p>
-				<p class="subtitle">Cofounder at DrHRejoint.com</p>
+				<p class="title">Lucy Momodu</p>
+				<p class="subtitle">Luceez Global Trends Limited</p>
 				<div class="avatar">
-					<img src="img/testimonials/michael_arking7b02.jpg?=92AmRJ" alt="Michael Arking" />
+					<img src="img/testimonials/michael_arking7b02.jpg?=92AmRJ" alt="Lucy Momodu" />
 				</div>
 				<div class="quote">
-					"The whole team at 3J2Unlimited are not only professional, but real artists as well. They do great work, are reliable, and
-					are a pleasure to work with. I highly recommend them for your next project. You won&#039;t be disappointed!"
+					"I met Micheal at a workshop I went for, he was one of the speakers who inspired me to do more for my business which prompted me to use him for my website. He was patient when changes needed to be done and was (and still is) always available to answer questions or provide support. Thanks a lot Micheal and I wish u greatness in all u do cos u deserve it
+"
 				</div>
 			</div>
 			<div class="testimonial" data-aos="fade-up">
-				<p class="title">Sebastian Huber</p>
-				<p class="subtitle">Head of Digital, Central &amp; Eastern Europe (CEE) at FOX International Channels</p>
+				<p class="title">Stella Adu</p>
+				<p class="subtitle">Prolific Global Concepts</p>
 				<div class="avatar">
-					<img src="img/testimonials/sebastian_huber7b02.jpg?=92AmRJ" alt="Sebastian Huber" />
+					<img src="img/testimonials/eoin_matthews7b02.jpg?=92AmRJ" alt="Stella Adu (Prolificstella)" />
 				</div>
 				<div class="quote">
-					"The most brilliant team I’ve ever worked with. They have passion, no respect for the status-quo and soon will
-					have YOU praising the work that is yet to come. Come and get them on board – it’s worth it!"
+					"Can’t thank you enough for your tireless effort-night and day, in collecting & gathering the necessary information to seeing prolificstella.com comes up within the space of two weeks of starting out the website… What a dedicated techpreneur you are!?? Keep it up? @prolificstella
+"
 				</div>
 			</div>
 			<div class="testimonial" data-aos="fade-up">
-				<p class="title">Eoin Matthews</p>
-				<p class="subtitle">Cofounder at Point</p>
+				<p class="title">Tosin Tologbonshe</p>
+				<p class="subtitle">HNaija Gospel Lyrics Blogger</p>
 				<div class="avatar">
-					<img src="img/testimonials/eoin_matthews7b02.jpg?=92AmRJ" alt="Eoin Matthews" />
+					<img src="img/testimonials/sebastian_huber7b02.jpg?=92AmRJ" alt="Tosin Tologbonshe" />
 				</div>
 				<div class="quote">
-					"3J2Unlimited team have done some excellent design work for us on short notice and on an appropriate budget for the high
-					quality of the work. They have a strong design culture and they maintain the sort of process control that makes
-					them an easy remote partner to work with. Pawel is an excellent manager and runs a tight ship that is superior to
-					most Silicon Valley design studios - highly recommended."
+					"I met Michael this year and it has been a wonderful experience and the way he helps me with my blog is awesome always ready to help anytime.
+"
+				</div>
+			</div>
+			
+			<div class="testimonial" data-aos="fade-up">
+				<p class="title">Toyin Elegbede</p>
+				<p class="subtitle">BraceUp Group Chief Blogger</p>
+				<div class="avatar">
+					<img src="img/testimonials/darren_wendroff7b02.jpg?=92AmRJ" alt="Toyin Elegbede" />
+				</div>
+				<div class="quote">
+					"I sincerely want to appreciate 3j2unlimited technology for making our birth a reality. Long live 3j2
+"
 				</div>
 			</div>
 			<div class="testimonial" data-aos="fade-up">
-				<p class="title">Darren Wendroff</p>
-				<p class="subtitle">Founder at CareSpotter</p>
+				<p class="title">Moyotician</p>
+				<p class="subtitle">The Lifematics Centre</p>
 				<div class="avatar">
-					<img src="img/testimonials/darren_wendroff7b02.jpg?=92AmRJ" alt="Darren Wendroff" />
+					<img src="img/testimonials/adrian_kajda7b02.jpg?=92AmRJ" alt="Moyotician" />
 				</div>
 				<div class="quote">
-					"CareSpotter wins the Healthbox Award for Innovation and Design! Thanks so much you guys for the awesome design,
-					could not have done it without you!"
-				</div>
-			</div>
-			<div class="testimonial" data-aos="fade-up">
-				<p class="title">Adrian Kajda</p>
-				<p class="subtitle">Editor in Chief, Co-Owner At Max3D.pl</p>
-				<div class="avatar">
-					<img src="img/testimonials/adrian_kajda7b02.jpg?=92AmRJ" alt="Adrian Kajda" />
-				</div>
-				<div class="quote">
-					"3J2Unlimited team understands perfeclty clients needs and use latest trends in design. Excellent contact with the
-					team during the project development, they were open to suggestions and eager to create unconventional solutions."
-				</div>
+					"Michael creates unique websites and give tips on how to attract traffic to the website. He has a way of taking an idea from you and developing it to something you will be grateful for."				</div>
 			</div>
 		</div>
 		<div class="black-box">

@@ -18,7 +18,7 @@
         <div class="content fadeInHeader">
             <div class="logo">
                 <a href="./">
-                    <img src="img/logo.png" width="50px" />
+                    <img src="img/logo-full.png" height="45px" />
                 </a>
             </div>
             <button class="menu-btn js-menu-btn"><span></span></button>
@@ -30,7 +30,7 @@
                     <a href="offer.html">What We Offer</a>
                 </li>
                 <li class="menu--item">
-                    <a href="case-study.html">Case Study</a>
+                    <a href="our-works.php">Our Works</a>
                 </li>
                 <li class="menu--item">
                     <a href="about-us.php">About Us</a>
